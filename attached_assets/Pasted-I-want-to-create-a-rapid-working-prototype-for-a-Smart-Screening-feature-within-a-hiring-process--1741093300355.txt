@@ -1,0 +1,28 @@
+I want to create a rapid, working prototype for a 'Smart Screening' feature within a hiring process, designed for internal stakeholder validation with minimal development effort. The prototype simulates an LLM-based tool for a small home-services business, focusing on two core functionalities: resume ranking and automated assignments. Use a clean, professional design theme similar to https://hirebus.com/ (light colors, simple layouts, intuitive navigation).
+
+Main Page (Hiring Manager View):
+
+Display a list of 3 pre-loaded candidate profiles (e.g., John Doe, Jane Smith, Mike Lee) applying for a sample position (e.g., 'Plumber').
+Each profile includes:
+Suitability Score: A number (0–100) based on resume fit to a pre-set job description (e.g., 'Plumber: 5+ years experience, certification'). Scores are static for this PoC (e.g., John: 85, Jane: 70, Mike: 60).
+Key Strengths: 3 highlighted strengths per candidate, derived from their resume (e.g., John: '5 yrs plumbing,' 'Certified,' 'Team leader').
+Action Buttons:
+'Chat' (shows a pre-filled message, e.g., 'Hi, tell me about your experience').
+'Send Home Assignment' (links to Assignment Workflow).
+'Book Meeting' (shows a mock calendar pop-up with static options, e.g., 'March 5, 10 AM').
+Include a 'Sort by Score' button to reorder the list (highest to lowest).
+Assignment Workflow (Separate Page or Pop-Up):
+
+Triggered by 'Send Home Assignment' on a candidate profile.
+Step 1: Hiring manager inputs a job-specific task (e.g., ‘Estimate materials for a roofing job’) in a text box.
+Step 2: Display 3 pre-set, static questions mimicking LLM generation (e.g., ‘How much wood is needed?’, ‘What’s your cost estimate?’, ‘How long will it take?’).
+Step 3: Provide a text box for a simulated candidate response (e.g., ‘100 sq ft wood, $500, 2 days’).
+Step 4: On ‘Submit,’ show a static score (e.g., 80/100) with a brief explanation (e.g., ‘Accurate estimate shows practical skills’), and update the candidate’s suitability score on the main page (e.g., new weighted average: 70 → 75).
+Scope and Constraints:
+
+Use static data (pre-loaded candidates, scores, strengths, questions) to simulate LLM behavior—no real AI integration needed.
+Focus on usability for a hiring manager: clear labels, clickable buttons, and a logical flow (upload/rank → assign → score).
+Keep it lightweight for a 5-minute demo, emphasizing business logic over polish.
+Output:
+
+Generate a functional prototype with clickable elements to demonstrate the critical paths: ranking candidates and evaluating assignments. Match the HireBus aesthetic (e.g., blue/white color scheme, minimalistic UI)."
